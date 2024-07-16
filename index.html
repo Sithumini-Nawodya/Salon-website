@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salon Mondy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+
+    <!--Nav-Bar-->
+
+    <header>
+        <img src="/img/logo.jpg" alt="" class="logo">
+
+        <!--Menu-Icon-->
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <!--Links-->
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+
+        <!--Button-->
+        <button type="submit" class="btn" id="btn">Online Booking</button>
+
+    </header>
+
+    <section class="container" id="container">
+        <div class="head">
+            <h2>Make An Appointment</h2>
+        </div>
+         
+        <label for="show" class="close-btn" id="close-btn-button" title="close">&times;</label>
+
+        <div class="box">
+
+            <form action="">
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name" value="Your Name"><br>
+                <label for="email">Email</label><br>
+                <input type="text" id="emai" name="email" value="Your Email"><br>
+                <label for="phone">Phone Number</label><br>
+                <input type="text" id="phone" name="phone" value="Your Phone Number"><br>
+                <label for="service">Service</label><br>
+                <input list="service" name="service" id="service">
+                <datalist id="service">
+                    <option value="Hair cut">
+                    <option value="Hair Relaxing">
+                    <option value="Hair Setting">
+                    <option value="Hair Treatment">
+                    <option value="Hair Coloring">
+                </datalist><br>
+                <label for="employee">Employee</label><br>
+                <input list="employee" name="employee" id="employee">
+                <datalist id="employee">
+                    <option value="Surith">
+                    <option value="Other employee">
+                </datalist><br>
+                <button class="next" id="next-btn">Next</button>
+            </form>
+            
+        </div>
+    </section>
+
+    <section class="time-container" id="time-container">
+
+        <div class="text">
+            <h2>Make an Appointment</h2>
+        </div>
+
+        <label for="show" class="close-btn" title="close">&times;</label>
+
+        <div class="calender">
+            <header>
+                <h3>May 2024</h3>
+                <nav>
+                    <button id="prev"></button>
+                    <button id="next"></button>
+                </nav>
+            </header>
+            
+                <ul class="days">
+                    <li>Sun</li>
+                    <li>Mon</li>
+                    <li>Tue</li>
+                    <li>Wed</li>
+                    <li>Thu</li>
+                    <li>Fri</li>
+                    <li>Sat</li>
+                </ul>
+                <ul class="dates">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                    <li>7</li>
+                    <li>8</li>
+                    <li>9</li>
+                    <li>10</li>
+                    <li>11</li>
+                    <li>12</li>
+                    <li>13</li>
+                    <li>14</li>
+                    <li>15</li>
+                    <li>16</li>
+                    <li>17</li>
+                    <li>18</li>
+                    <li>19</li>
+                    <li>20</li>
+                    <li>21</li>
+                    <li>22</li>
+                    <li>23</li>
+                    <li>24</li>
+                    <li>25</li>
+                    <li>26</li>
+                    <li>27</li>
+                    <li>28</li>
+                    <li>29</li>
+                    <li>30</li>
+                    <li>31</li>
+
+
+
+                </ul>
+            
+        </div>
+
+        <div class="time">
+            <ul>
+                <li>9.30 am</li>
+                <li>10.00 am</li>
+                <li>10.30 am</li>
+                <li>11.00 am</li>
+                <li>11.30 am</li>
+                <li>12.00 am</li>
+                <li>1.00 pm</li>
+                <li>1.30 pm</li>
+                <li>2.00 pm</li>
+                <li>2.30 pm</li>
+                <li>3.00 pm</li>
+                <li>3.30 pm</li>
+                <li>4.00 pm</li>
+                <li>4.30 pm</li>
+                <li>5.00 pm</li>
+                <li>5.30 pm</li>
+                
+            </ul>
+        </div>
+        <button class="next">Reserve</button>
+    </section>
+
+    <section class="thank-appoint" id="thank-appoint">
+        <div class="text">
+            <h2>Make an Appointment</h2>
+            <img src="/img/logo.jpg" alt="">
+            <h3>Your Appointment has been booked. Thank You!</h3>
+            <button class="reserve-btn">Add New Reservation</button>
+        </div>
+
+        <label for="show" class="close-btn" title="close">&times;</label>
+
+    </section>
+    <!--Home-->
+    <section class="home" id="home">
+        <div class="home-text1">
+            <h1>Salon <br> Mondy</h1>
+        </div>
+
+        <div class="Contact">
+            <div class="icon">
+                <i class='bx bxs-time-five'></i>
+                <i class='bx bxs-home'></i>
+                <i class='bx bxs-phone'></i>
+            </div>
+            <div class="text">
+                <ul>
+                    <li>OPENING TIMES <br>Monday-Sunday <br>9 AM-7 PM</li>
+                    <li>OUR LOCATION <br>No:55, Second Street,<br>Chilaw.</li>
+                    <li>OUR PHONE <br>0776214997</li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <!--About-->
+
+    <section class="about" id="about">
+        <div class="about-text">
+            <h2>We are Mondy <br>Professional in Hair Care</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Omnis laboriosam hic, ipsam doloremque quas vel voluptatibus?
+                Id, eveniet quis perferendis dolor earum perspiciatis nam eum, sit error ut adipisci aperiam.</p>
+            <a href="#" class="btn1">Learn More</a>
+        </div>
+        <div class="divider"></div>
+        <div class="about-image">
+            <img class="img1" src="/img/hair-salon-singapore-feature.jpg" alt=""> <br>
+            <img class="img2" src="img/salon image.jpg" alt="">
+        </div>
+    </section>
+    <hr>
+    <hr>
+
+    <!--Services-->
+    <section class="services" id="services">
+        <div class="heading">
+            <h2>Our Services</h2>
+        </div>
+
+        <!--Container-->
+
+        <div class="service-container">
+            <div class="box">
+                <img src="img/haircut.jpg" alt="">
+                <h3>Hair Cut</h3>
+            </div>
+
+            <div class="box">
+                <img src="img/coloring.jpg" alt="">
+                <h3>Hair Coloring</h3>
+            </div>
+
+            <div class="box">
+                <img src="img/relaxing.jpg" alt="">
+                <h3>Hair Relaxing</h3>
+            </div>
+
+            <div class="box">
+                <img src="img/setting.jpg" alt="">
+                <h3>Hair Setting</h3>
+            </div>
+
+            <div class="box">
+                <img src="img/treatment.jpg" alt="">
+                <h3>Hair Treatment</h3>
+            </div>
+
+        </div>
+        <a href="servicemore.html" class="btn2">View More</a>
+
+
+    </section>
+    <!--back-->
+    <section class="back" id="back">
+
+    </section>
+
+    <!--products-->
+    <section class="products" id="products">
+
+        <div class="heading">
+            <h2>Our Products</h2>
+        </div>
+
+        <!--Container-->
+
+        <div class="product-container">
+            <div class="box">
+                <img src="img/Indola.jpg" alt="">
+                <h3>Indola</h3>
+            </div>
+
+            <div class="box">
+                <img src="img/Jovees.jpg" alt="">
+                <h3>Jovees</h3>
+            </div>
+
+            <div class="box">
+                <img src="img/Loreal.jpg" alt="">
+                <h3>Loreal</h3>
+            </div>
+
+            <div class="box">
+                <img src="img/Olos.jpg" alt="">
+                <h3>Olos</h3>
+            </div>
+
+            <div class="box">
+                <img src="img/wella.jpg" alt="">
+                <h3>Wella</h3>
+            </div>
+
+        </div>
+        <a href="productsmore.html" class="btn2">View More</a>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact US</h2>
+        <div class="form">
+
+            <form ACTION="/Scripts/simple.pl" METHOD="post">
+                <label for="fname">Name:</label><br>
+                <input type="text" id="fname" name="fname" value="Enter your Name"><br>
+                <label for="Email">Email:</label><br>
+                <input type="text" id="email" name="email" value="Enter Email"><br>
+                <p><label for="w3review">Massege:</label></p>
+
+                <textarea id="Massege" name="Massege" rows="4" cols="50">
+                </textarea>
+                <br>
+
+                <INPUT TYPE="submit" VALUE="Submit Form">
+                <INPUT TYPE="reset" VALUE="Clear Form">
+            </form>
+
+        </div>
+
+    </section>
+
+    <hr class="new">
+    <footer>
+        <footer>
+            <div class="footerup">
+                <h3>Connect with Salon Mondy</h3>
+                <div class="icon">
+                    <i class='bx bxl-facebook-circle'></i>
+                    <i class='bx bxl-twitter'></i>
+                    <i class='bx bxl-instagram-alt'></i>
+                </div>
+
+            </div>
+            <h4>Copyright © 2016 Salon Liyo. All rights reserved. | Design by Sithu
+                Web Design </h4>
+        </footer>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
